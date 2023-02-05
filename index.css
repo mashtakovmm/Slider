@@ -1,0 +1,162 @@
+body{
+    margin: 0px;
+    font-family: Nunito Sans, Arial;
+    background-color: #131313;
+}
+
+.container{
+    max-width: 1250px;
+    margin: 0px auto;
+}
+
+.projects-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.projects-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: auto;
+    width: 679px;
+}
+
+.projects-list-item {
+    color: white;
+    text-decoration: none;
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    text-transform: uppercase;
+}
+
+.projects-data {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    color: white;
+    justify-content: space-between;
+}
+
+.projects-data {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    color: white;
+    justify-content: space-between;
+}
+
+.projects-data-text {
+    width: 331px;
+    align-self: center;
+}
+
+.h2 {
+    max-width: 248px;
+    margin-bottom: 34.6px;
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 37px;
+    letter-spacing: -0.07em;
+    text-transform: uppercase;
+}
+
+.projects-description {
+    margin-bottom: 42px;
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 27px;
+}
+
+.project-info-grid {
+    display: flex;
+    flex-direction:  row;
+    justify-content: space-between;
+}
+
+.project-info-container {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.info-text {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 27px;
+}
+
+.h3 {
+    text-transform: uppercase;
+}
+
+.project-h3 {
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.selector {
+    margin-top: 80px;
+    margin-right: auto;
+}
+
+.item-highlight{
+    color:#E3B873;
+    text-decoration:underline
+}
+
+.info-highlight {
+    background-color: #E3B873;
+    display: flex;
+    align-items: center;
+    height: 54px;
+}
+
+.highlight-text {
+    color: #E3B873;
+}
+
+.selector {
+    display: flex;
+}
+
+.arrow {
+    cursor: pointer;
+}
+
+.left-arrow {
+    margin-right: 29.5px;
+}
+
+.right-arrow {
+    margin-left: 12px;
+
+    -webkit-transform: rotate(180deg);     /* Chrome and other webkit browsers */
+    -moz-transform: rotate(180deg);        /* FF */
+    -o-transform: rotate(180deg);          /* Opera */
+    -ms-transform: rotate(180deg);         /* IE9 */
+    transform: rotate(180deg);             /* W3C compliant browsers */
+
+    /* IE8 and below */
+    filter: progid:DXImageTransform.Microsoft.Matrix(M11=-1, M12=0, M21=0, M22=-1, DX=0, DY=0, SizingMethod='auto expand');
+}
+
+.dot {
+    margin-right: 17.5px;
+    cursor: pointer;
+}
